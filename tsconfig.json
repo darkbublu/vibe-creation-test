@@ -1,0 +1,40 @@
+{
+  // #region Compiler Options
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@core/*": ["core/*"],
+      "@ui/*": ["ui/*"]
+    }
+  },
+  // #endregion
+
+  // #region Project Structure
+  "include": [
+    "core/**/*",
+    "ui/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+  // #endregion
+} 
