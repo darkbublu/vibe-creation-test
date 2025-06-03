@@ -8,7 +8,7 @@ interface AuthResponse {
   token: string;
   user: User;
 }
-
+//good here
 interface User {
   id: string;
   username: string;
