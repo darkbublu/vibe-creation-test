@@ -7,7 +7,7 @@ export interface User {
   createdAt: Date;
   updatedAt: Date;
 }
-//test for edits 5 pm
+//test for edits 5 pms
 export interface UserProfile {
   firstName: string;
   lastName: string;
