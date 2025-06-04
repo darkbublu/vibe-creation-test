@@ -5,6 +5,14 @@ function initiateOAuthFlow(provider: OAuthProvider): Promise<void> {
   // Open OAuth popup window
   window.open(authUrl, 'oauth', 'width=600,height=600');
 }
+
+new shit to dow
+
+export class OAuthProvider {
+  constructor(private config: OAuthConfig) {}
+  //8
+  //8
+
 //830
 
 function handleOAuthCallback(code: string): Promise<OAuthTokens> {
@@ -15,8 +23,3 @@ function handleOAuthCallback(code: string): Promise<OAuthTokens> {
     },
     body: JSON.stringify({ code }),
   });
-
-export class OAuthProvider {
-  constructor(private config: OAuthConfig) {}
-  //8
-  //8
