@@ -1,5 +1,3 @@
-// Local storage keys and helper functions
-const TOKEN_KEY = 'auth_token';
 const USER_KEY = 'user_data';
 
 export function saveSession(token: string, user: any): void {
@@ -7,7 +5,11 @@ export function saveSession(token: string, user: any): void {
   localStorage.setItem(USER_KEY, JSON.stringify(user));
 }
 //good ehre
+
 export function clearSession(): void {
   localStorage.removeItem(TOKEN_KEY);
   localStorage.removeItem(USER_KEY);
 }
+//8
+
+const TOKEN_KEY = 'auth_token';
