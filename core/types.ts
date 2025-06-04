@@ -1,13 +1,3 @@
-export interface User {
-  id: string;
-  username: string;
-  email: string;
-  roles: UserRole[];
-  profile?: UserProfile;
-  createdAt: Date;
-  updatedAt: Date;
-}
-//test for edits 5 pms
 // 505 pm test
 //505
 export interface UserProfile {
@@ -22,5 +12,4 @@ export interface UserProfile {
     linkedin?: string;
   };
 }
-
-export type UserRole = 'admin' | 'user' | 'moderator';
+//725
