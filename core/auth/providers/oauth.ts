@@ -1,6 +1,3 @@
-// OAuth authentication provider implementation
-
-// #region Types
 interface OAuthConfig {
   clientId: string;
   clientSecret: string;
@@ -13,9 +10,7 @@ interface OAuthTokens {
   refreshToken: string;
   expiresIn: number;
 }
-// #endregion
 
-// #region Provider Setup
 export class OAuthProvider {
   constructor(private config: OAuthConfig) {}
 
@@ -32,9 +27,7 @@ export class OAuthProvider {
     }
   }
 }
-// #endregion
 
-// #region Authentication Flow
 export async function initiateOAuthFlow(provider: OAuthProvider): Promise<void> {
   const authUrl = provider.getProviderUrl();
   // Open OAuth popup window
@@ -56,4 +49,5 @@ export async function handleOAuthCallback(code: string): Promise<OAuthTokens> {
 
   return response.json();
 }
-// #endregion 
+
+//725
