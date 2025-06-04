@@ -12,5 +12,4 @@ export interface UserProfile {
     linkedin?: string;
   };
 }
-
 //8
