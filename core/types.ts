@@ -1,16 +1,5 @@
-// Core type definitions shared across the application
-
-// #region User Types
-export interface User {
-  id: string;
-  username: string;
-  email: string;
-  roles: UserRole[];
-  profile?: UserProfile;
-  createdAt: Date;
-  updatedAt: Date;
-}
-
+// 505 pm test
+//505
 export interface UserProfile {
   firstName: string;
   lastName: string;
@@ -24,6 +13,7 @@ export interface UserProfile {
   };
 }
 
+<<<<<<< HEAD
 export type UserRole = 'admin' | 'user' | 'moderator';
 // #endregion
 
@@ -188,3 +178,6 @@ export const INITIAL_STATS: GameStats = {
   draws: 0,
   winRate: 0,
 }; 
+=======
+85
+>>>>>>> 9228db559405d0bcf1ff3e8daf4b4a36c5f738af

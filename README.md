@@ -1,5 +1,6 @@
 # Tic-Tac-Toe Online
 
+<<<<<<< HEAD
 A modern, interactive online tic-tac-toe game built with React and TypeScript. Play against friends or challenge the AI in this beautifully designed web application.
 
 ## Features
@@ -124,3 +125,21 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - Inspired by the classic tic-tac-toe game
 - Built with modern web technologies for the best user experience
+=======
+-  L OT OF TEXT WAS DELETED OOPSY
+- seeing if it do beetter now
+- test edit again'
+
+- 505pm test
+505
+725725
+8
+850
+911
+911
+950gdfg
+11
+dfh
+jkhs
+blobby
+>>>>>>> 9228db559405d0bcf1ff3e8daf4b4a36c5f738af
