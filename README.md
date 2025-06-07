@@ -1,6 +1,4 @@
 # Tic-Tac-Toe Online
-
-<<<<<<< HEAD
 A modern, interactive online tic-tac-toe game built with React and TypeScript. Play against friends or challenge the AI in this beautifully designed web application.
 
 ## Features
