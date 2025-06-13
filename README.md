@@ -10,7 +10,7 @@ A modern, interactive online tic-tac-toe game built with React and TypeScript. P
 - 📱 **Mobile Friendly**: Optimized for both desktop and mobile devices
 - 🔄 **Game Statistics**: Track your wins, losses, and draws
 - ⚡ **Real-time Updates**: Instant game state updates
-
+- 
 ## How to Play
 
 1. Choose your game mode (vs AI or vs Player)
