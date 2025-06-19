@@ -1,3 +1,11 @@
+---
+id: 4b3401e4-4b34-4b34-4b34-4b3401e4
+path: core/game/logic.ts
+level: file
+title: "Logic"
+description: "TypeScript module"
+---
+
 // Core Game Logic for Tic-Tac-Toe
 
 import {
