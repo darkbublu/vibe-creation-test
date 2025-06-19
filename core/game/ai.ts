@@ -1,3 +1,11 @@
+---
+id: 2b5baa18-2b5b-2b5b-2b5b-2b5baa18
+path: core/game/ai.ts
+level: file
+title: "Ai"
+description: "TypeScript module"
+---
+
 // AI Logic for Tic-Tac-Toe using Minimax Algorithm
 
 import {
