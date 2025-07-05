@@ -1,0 +1,49 @@
+{
+  "name": "ui",
+  "description": "",
+  "files": [
+    {
+      "path": "ui/components/buttons/IconButton (1) (1).tsx",
+      "name": "IconButton (1) (1).tsx",
+      "description": "",
+      "codeBlocks": [
+        {
+          "id": "block_2ad4771b",
+          "type": "code",
+          "content": "---\nid: 0cfec682-0cfe-0cfe-0cfe-0cfec682\npath: ui/components/buttons/IconButton (1) (1).tsx\nlevel: file\ntitle: IconButton (1) (1)\ndescription: React TypeScript component - Auto-generated\n---\n# Moved file",
+          "language": "tsx",
+          "description": "Main content of ui/components/buttons/IconButton (1) (1).tsx",
+          "order": 0,
+          "file": "ui/components/buttons/IconButton (1) (1).tsx",
+          "meta": {
+            "segmentType": "other",
+            "startLine": 1,
+            "endLine": 8
+          }
+        }
+      ]
+    },
+    {
+      "path": "ui/components/buttons/IconButton (1).tsx",
+      "name": "IconButton (1).tsx",
+      "description": "",
+      "codeBlocks": [
+        {
+          "id": "block_31403b6b",
+          "type": "code",
+          "content": "---\nid: 438301e2-4383-4383-4383-438301e2\npath: ui/components/buttons/IconButton (1).tsx\nlevel: file\ntitle: IconButton (1)\ndescription: React TypeScript component - Auto-generated\n---\n# Moved file",
+          "language": "tsx",
+          "description": "Main content of ui/components/buttons/IconButton (1).tsx",
+          "order": 0,
+          "file": "ui/components/buttons/IconButton (1).tsx",
+          "meta": {
+            "segmentType": "other",
+            "startLine": 1,
+            "endLine": 8
+          }
+        }
+      ]
+    }
+  ],
+  "created": "2025-07-05T00:32:07.210Z"
+}

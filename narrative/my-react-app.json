@@ -1,0 +1,91 @@
+{
+  "name": "my-react-app",
+  "description": "",
+  "files": [
+    {
+      "path": "my-react-app/package.json",
+      "name": "package.json",
+      "description": "",
+      "codeBlocks": [
+        {
+          "id": "block_21351f3a",
+          "type": "code",
+          "content": "---\nid: 3225a173-3225-3225-3225-3225a173\npath: my-react-app/package.json\nlevel: module\ntitle: Package\ndescription: Configuration file - Auto-generated\n---\n{\"name\": \"my-react-app\"}",
+          "language": "json",
+          "description": "Main content of my-react-app/package.json",
+          "order": 0,
+          "file": "my-react-app/package.json",
+          "meta": {
+            "segmentType": "other",
+            "startLine": 1,
+            "endLine": 8
+          }
+        }
+      ]
+    },
+    {
+      "path": "my-react-app/public/index.html",
+      "name": "index.html",
+      "description": "",
+      "codeBlocks": [
+        {
+          "id": "block_49ecb7d8",
+          "type": "code",
+          "content": "---\nid: 3e601c30-3e60-3e60-3e60-3e601c30\npath: my-react-app/public/index.html\nlevel: file\ntitle: Index\ndescription: Source file - Auto-generated\n---\n<!DOCTYPE html>",
+          "language": "html",
+          "description": "Main content of my-react-app/public/index.html",
+          "order": 0,
+          "file": "my-react-app/public/index.html",
+          "meta": {
+            "segmentType": "other",
+            "startLine": 1,
+            "endLine": 8
+          }
+        }
+      ]
+    },
+    {
+      "path": "my-react-app/src/App.js",
+      "name": "App.js",
+      "description": "",
+      "codeBlocks": [
+        {
+          "id": "block_81c567c2",
+          "type": "code",
+          "content": "---\nid: 194d331e-194d-194d-194d-194d331e\npath: my-react-app/src/App.js\nlevel: file\ntitle: App\ndescription: JavaScript module - Auto-generated\n---\nimport React from \"react\";",
+          "language": "javascript",
+          "description": "Main content of my-react-app/src/App.js",
+          "order": 0,
+          "file": "my-react-app/src/App.js",
+          "meta": {
+            "segmentType": "other",
+            "startLine": 1,
+            "endLine": 8
+          }
+        }
+      ]
+    },
+    {
+      "path": "my-react-app/src/index.js",
+      "name": "index.js",
+      "description": "",
+      "codeBlocks": [
+        {
+          "id": "block_8c7037a5",
+          "type": "code",
+          "content": "---\nid: 453e4353-453e-453e-453e-453e4353\npath: my-react-app/src/index.js\nlevel: file\ntitle: Index\ndescription: JavaScript module - Auto-generated\n---\nimport App from \"./App\";",
+          "language": "javascript",
+          "description": "Main content of my-react-app/src/index.js",
+          "order": 0,
+          "file": "my-react-app/src/index.js",
+          "meta": {
+            "segmentType": "other",
+            "startLine": 1,
+            "endLine": 8
+          }
+        }
+      ]
+    }
+  ],
+  "created": "2025-07-05T00:32:07.205Z"
+}

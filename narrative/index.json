@@ -1,0 +1,15 @@
+{
+  "title": "vibe-creation-test",
+  "description": "",
+  "modules": [
+    "core",
+    "my-project",
+    "my-react-app",
+    "public",
+    "src",
+    "ui",
+    "root"
+  ],
+  "created": "2025-07-05T00:32:07.214Z",
+  "version": "1.0.0"
+}
