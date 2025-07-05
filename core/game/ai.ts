@@ -7,7 +7,7 @@ description: "TypeScript module"
 ---
 
 
- * Evaluate the current board position
+* Evaluate the current board position
  * @param board Current board state
  * @param aiPlayer AI player symbol
  * @returns Score evaluation
