@@ -8,7 +8,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_46f0ff33",
+          "id": "block_cb29f4c5",
           "type": "code",
           "content": "---\nid: 3225a173-3225-3225-3225-3225a173\npath: my-react-app/package.json\nlevel: module\ntitle: Package\ndescription: Configuration file - Auto-generated\n---\n{\"name\": \"my-react-app\"}",
           "language": "json",
@@ -29,7 +29,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_09ea9222",
+          "id": "block_15a5ec89",
           "type": "code",
           "content": "---\nid: 3e601c30-3e60-3e60-3e60-3e601c30\npath: my-react-app/public/index.html\nlevel: file\ntitle: Index\ndescription: Source file - Auto-generated\n---\n<!DOCTYPE html>",
           "language": "html",
@@ -50,7 +50,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_19e026cf",
+          "id": "block_ab3a2070",
           "type": "code",
           "content": "---\nid: 194d331e-194d-194d-194d-194d331e\npath: my-react-app/src/App.js\nlevel: file\ntitle: App\ndescription: JavaScript module - Auto-generated\n---\nimport React from \"react\";",
           "language": "javascript",
@@ -71,7 +71,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_ba8b11dc",
+          "id": "block_99673bc9",
           "type": "code",
           "content": "---\nid: 453e4353-453e-453e-453e-453e4353\npath: my-react-app/src/index.js\nlevel: file\ntitle: Index\ndescription: JavaScript module - Auto-generated\n---\nimport App from \"./App\";",
           "language": "javascript",
