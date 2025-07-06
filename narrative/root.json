@@ -8,7 +8,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_b47804dd",
+          "id": "block_287dbf99",
           "type": "code",
           "content": "# Tic-Tac-Toe Online\n\n<<<<<<< HEAD\nA modern, interactive online tic-tac-toe game built with React and TypeScript. Play against friends or challenge the AI in this beautifully designed web application.\n\n## Features\n\n- 🎮 **Interactive Gameplay**: Smooth, responsive tic-tac-toe game interface\n- 🤖 **AI Opponent**: Play against an intelligent computer opponent\n- 👥 **Two Player Mode**: Play with friends on the same device\n- 🎨 **Modern UI**: Clean, responsive design with smooth animations\n- 📱 **Mobile Friendly**: Optimized for both desktop and mobile devices\n- 🔄 **Game Statistics**: Track your wins, losses, and draws\n- ⚡ **Real-time Updates**: Instant game state updates\n\n## How to Play\n\n1. Choose your game mode (vs AI or vs Player)\n2. Players take turns placing X's and O's on the 3x3 grid\n3. First player to get 3 in a row (horizontally, vertically, or diagonally) wins!\n4. If all squares are filled with no winner, it's a draw\n\n## Game Rules\n\n- X always goes first\n- Players alternate turns\n- A player wins by placing three marks in a row:\n  - Horizontally (across)\n  - Vertically (up and down)\n  - Diagonally (corner to corner)\n- The game ends when someone wins or all squares are filled\n\n## Getting Started\n\n### Prerequisites\n\n- Node.js (version 16 or higher)\n- npm or yarn\n\n### Installation\n\n1. Clone the repository:\n```bash\ngit clone <repository-url>\ncd tic-tac-toe-online\n```\n\n2. Install dependencies:\n```bash\nnpm install\n```\n\n3. Start the development server:\n```bash\nnpm start\n```\n\n4. Open your browser and navigate to `http://localhost:3000`\n\n## Project Structure\n\n```\ntic-tac-toe-online/\n├── README.md\n├── package.json\n├── tsconfig.json\n├── public/\n│   └── index.html\n├── core/\n│   ├── types.ts          # Game types and interfaces\n│   ├── game/\n│   │   ├── logic.ts      # Game logic and rules\n│   │   ├── ai.ts         # AI opponent logic\n│   │   └── utils.ts      # Game utilities\n│   └── hooks/\n│       ├── useGame.ts    # Game state management\n│       └── useStats.ts   # Statistics tracking\n└── ui/\n    ├── components/\n    │   ├── Game/\n    │   │   ├── Board.tsx\n    │   │   ├── Square.tsx\n    │   │   └── GameInfo.tsx\n    │   ├── Menu/\n    │   │   ├── GameMenu.tsx\n    │   │   └── ModeSelector.tsx\n    │   └── common/\n    │       ├── Button.tsx\n    │       └── Card.tsx\n    ├── styles/\n    │   ├── globals.css\n    │   └── components.css\n    └── App.tsx\n```\n\n## Technologies Used\n\n- **React 18** - Frontend framework\n- **TypeScript** - Type safety and better development experience\n- **Emotion** - CSS-in-JS styling\n- **React Router** - Navigation and routing\n- **Modern CSS** - Responsive design and animations\n\n## Available Scripts\n\n- `npm start` - Runs the app in development mode\n- `npm build` - Builds the app for production\n- `npm test` - Launches the test runner\n- `npm run lint` - Runs ESLint to check code quality\n- `npm run format` - Formats code using Prettier\n\n## Contributing\n\n1. Fork the repository\n2. Create your feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add some amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\n## License\n\nThis project is open source and available under the [MIT License](LICENSE).\n\n## Acknowledgments\n\n- Inspired by the classic tic-tac-toe game\n- Built with modern web technologies for the best user experience\n=======\n-  L OT OF TEXT WAS DELETED OOPSY\n- seeing if it do beetter now\n- test edit again'\n\n- 505pm test\n505\n725725\n8\n850\n911\n911\n950gdfg\n11\ndfh\njkhs\nblobby\n>>>>>>> 9228db559405d0bcf1ff3e8daf4b4a36c5f738af\n",
           "language": "markdown",
@@ -29,7 +29,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_b6e318ee",
+          "id": "block_a541786f",
           "type": "code",
           "content": "{\n  \"id\": \"test\",\n  \"content\": \"TESTING SAVE\"\n}\n85",
           "language": "json",
@@ -50,7 +50,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_bbfcb740",
+          "id": "block_dedac5fb",
           "type": "code",
           "content": "{\"narrative\":{\"title\":\"minimal-test\",\"description\":\"minimal test description\",\"modules\":[],\"moduleData\":{}},\"timestamp\":\"2025-07-06T04:37:45.377Z\",\"commitId\":\"test-minimal-1751776664993\"}",
           "language": "json",
@@ -71,7 +71,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_5fd6de8c",
+          "id": "block_005555a2",
           "type": "code",
           "content": "{\n  \"name\": \"tic-tac-toe-online\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Online multiplayer tic-tac-toe game built with React and TypeScript\",\n  \"private\": true,\n  \"scripts\": {\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test\",\n    \"eject\": \"react-scripts eject\",\n    \"lint\": \"eslint src --ext .ts,.tsx\",\n    \"format\": \"prettier --write \\\"**/*.{ts,tsx,json,md}\\\"\"\n  },\n  \"dependencies\": {\n    \"@emotion/react\": \"^11.11.0\",\n    \"@emotion/styled\": \"^11.11.0\",\n    \"react\": \"^18.2.0\",\n    \"react-dom\": \"^18.2.0\",\n    \"react-router-dom\": \"^6.11.0\",\n    \"typescript\": \"^4.9.5\",\n    \"socket.io-client\": \"^4.7.0\"\n  },\n  \"devDependencies\": {\n    \"@types/node\": \"^16.18.0\",\n    \"@types/react\": \"^18.2.0\",\n    \"@types/react-dom\": \"^18.2.0\",\n    \"@typescript-eslint/eslint-plugin\": \"^5.59.0\",\n    \"@typescript-eslint/parser\": \"^5.59.0\",\n    \"eslint\": \"^8.39.0\",\n    \"eslint-plugin-react\": \"^7.32.0\",\n    \"prettier\": \"^2.8.0\",\n    \"react-scripts\": \"5.0.1\"\n  }\n} ",
           "language": "json",
@@ -92,7 +92,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_66438a66",
+          "id": "block_f196628a",
           "type": "code",
           "content": "{\n  // #region Compiler Options\n  \"compilerOptions\": {\n    \"target\": \"es2020\",\n    \"lib\": [\"dom\", \"dom.iterable\", \"esnext\"],\n    \"allowJs\": true,\n    \"skipLibCheck\": true,\n    \"esModuleInterop\": true,\n    \"allowSyntheticDefaultImports\": true,\n    \"strict\": true,\n    \"forceConsistentCasingInFileNames\": true,\n    \"noFallthroughCasesInSwitch\": true,\n    \"module\": \"esnext\",\n    \"moduleResolution\": \"node\",\n    \"resolveJsonModule\": true,\n    \"isolatedModules\": true,\n    \"noEmit\": true,\n    \"jsx\": \"react-jsx\",\n    \"baseUrl\": \".\",\n    \"paths\": {\n      \"@core/*\": [\"core/*\"],\n      \"@ui/*\": [\"ui/*\"]\n    }\n  },\n  // #endregion\n\n  // #region Project Structure\n  \"include\": [\n    \"core/**/*\",\n    \"ui/**/*\",\n    \"src/**/*\",\n    \"public/index.html\"\n  ],\n  \"exclude\": [\n    \"node_modules\",\n    \"build\",\n    \"dist\",\n    \"**/*.spec.ts\",\n    \"**/*.test.ts\"\n  ]\n  // #endregion\n} ",
           "language": "json",
