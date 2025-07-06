@@ -8,7 +8,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_798df73a",
+          "id": "block_d9094a6c",
           "type": "code",
           "content": "---\nid: 0cfec682-0cfe-0cfe-0cfe-0cfec682\npath: ui/components/buttons/IconButton (1) (1).tsx\nlevel: file\ntitle: IconButton (1) (1)\ndescription: React TypeScript component - Auto-generated\n---\n# Moved file",
           "language": "tsx",
@@ -29,7 +29,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_a8970836",
+          "id": "block_5d45ff30",
           "type": "code",
           "content": "---\nid: 438301e2-4383-4383-4383-438301e2\npath: ui/components/buttons/IconButton (1).tsx\nlevel: file\ntitle: IconButton (1)\ndescription: React TypeScript component - Auto-generated\n---\n# Moved file",
           "language": "tsx",
