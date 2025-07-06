@@ -1,6 +1,0 @@
-
-
-# shometing
-
-
-#fklas
