@@ -1,6 +1,6 @@
 {
   "title": "minimal-test",
-  "description": "Test save at 2025-07-06T04:38:07.239Z",
+  "description": "Complex test save with code changes at 2025-07-06T04:38:09.086Z",
   "modules": [
     "core",
     "my-project",
@@ -10,5 +10,7 @@
     "ui",
     "root"
   ],
-  "lastModified": "2025-07-06T04:38:09.058Z"
+  "created": "2025-07-06T04:38:10.858Z",
+  "lastModified": "2025-07-06T04:38:10.899Z",
+  "version": "1.0.0"
 }
