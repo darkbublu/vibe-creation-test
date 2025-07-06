@@ -8,7 +8,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_00ba4c27",
+          "id": "block_d24c5ab1",
           "type": "code",
           "content": "---\nid: 4cbf219d-4cbf-4cbf-4cbf-4cbf219d\npath: my-project/src/index.ts\nlevel: file\ntitle: Index\ndescription: TypeScript module - Auto-generated\n---\nMain source file",
           "language": "typescript",
@@ -29,7 +29,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_92374ae4",
+          "id": "block_75241cd6",
           "type": "code",
           "content": "---\nid: 1dc87c96-1dc8-1dc8-1dc8-1dc87c96\npath: my-project/src/types.ts\nlevel: file\ntitle: Types\ndescription: TypeScript module - Auto-generated\n---\nexport interface User {}",
           "language": "typescript",
