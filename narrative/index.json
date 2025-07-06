@@ -1,6 +1,6 @@
 {
   "title": "minimal-test",
-  "description": "Cycle test save at 2025-07-06T04:38:10.914Z",
+  "description": "TIMING TEST - 2025-07-06T17:32:34.892Z\nThis should appear in GitHub immediately\nNo more lag!",
   "modules": [
     "core",
     "my-project",
@@ -10,5 +10,7 @@
     "ui",
     "root"
   ],
-  "lastModified": "2025-07-06T17:24:12.857Z"
+  "created": "2025-07-06T17:32:37.900Z",
+  "lastModified": "2025-07-06T17:32:37.900Z",
+  "version": "1.0.0"
 }
