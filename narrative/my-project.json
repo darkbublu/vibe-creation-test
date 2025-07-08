@@ -1,49 +1,6 @@
 {
   "name": "my-project",
   "description": "",
-  "files": [
-    {
-      "path": "my-project/src/index.ts",
-      "name": "index.ts",
-      "description": "",
-      "codeBlocks": [
-        {
-          "id": "block_e1bb079c",
-          "type": "code",
-          "content": "---\nid: 4cbf219d-4cbf-4cbf-4cbf-4cbf219d\npath: my-project/src/index.ts\nlevel: file\ntitle: Index\ndescription: TypeScript module - Auto-generated\n---\nMain source file",
-          "language": "typescript",
-          "description": "Main content of my-project/src/index.ts",
-          "order": 0,
-          "file": "my-project/src/index.ts",
-          "meta": {
-            "segmentType": "other",
-            "startLine": 1,
-            "endLine": 8
-          }
-        }
-      ]
-    },
-    {
-      "path": "my-project/src/types.ts",
-      "name": "types.ts",
-      "description": "",
-      "codeBlocks": [
-        {
-          "id": "block_2361fd77",
-          "type": "code",
-          "content": "---\nid: 1dc87c96-1dc8-1dc8-1dc8-1dc87c96\npath: my-project/src/types.ts\nlevel: file\ntitle: Types\ndescription: TypeScript module - Auto-generated\n---\nexport interface User {}",
-          "language": "typescript",
-          "description": "Main content of my-project/src/types.ts",
-          "order": 0,
-          "file": "my-project/src/types.ts",
-          "meta": {
-            "segmentType": "other",
-            "startLine": 1,
-            "endLine": 8
-          }
-        }
-      ]
-    }
-  ],
+  "files": [],
   "created": "2025-07-06T04:38:07.202Z"
 }

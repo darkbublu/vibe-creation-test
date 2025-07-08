@@ -1,0 +1,28 @@
+{
+  "name": "providers",
+  "description": "",
+  "files": [
+    {
+      "path": "core/auth/providers/oauth.ts",
+      "name": "oauth.ts",
+      "description": "",
+      "codeBlocks": [
+        {
+          "id": "block_1368b735",
+          "type": "code",
+          "content": "new shit to dow 911\n950\n\nfanskldfnsadl;kfn;;sal",
+          "language": "typescript",
+          "description": "Main content of core/auth/providers/oauth.ts",
+          "order": 0,
+          "file": "core/auth/providers/oauth.ts",
+          "meta": {
+            "segmentType": "other",
+            "startLine": 1,
+            "endLine": 4
+          }
+        }
+      ]
+    }
+  ],
+  "created": "2025-07-07T03:43:53.343Z"
+}
