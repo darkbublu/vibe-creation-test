@@ -1,6 +1,3 @@
-// try
-// and try again
-// one last times
 export interface UserProfile {
   firstName: string;
   lastName: string;
