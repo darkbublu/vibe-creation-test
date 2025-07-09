@@ -25,6 +25,9 @@ export interface AuthState {
   error: string | null;
 }
 
+
+
+
 export interface LoginCredentials {
   username: string;
   password: string;
