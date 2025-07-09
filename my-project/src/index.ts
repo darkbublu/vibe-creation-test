@@ -7,5 +7,4 @@ description: TypeScript module - Auto-generated
 ---
 
 
-
 Main source file
