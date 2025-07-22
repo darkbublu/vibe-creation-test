@@ -8,7 +8,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_c8fbea10",
+          "id": "block_8770251d",
           "type": "code",
           "content": "---\nid: 3225a173-3225-3225-3225-3225a173\npath: my-react-app/package.json\nlevel: module\ntitle: Package\ndescription: Configuration file - Auto-generated\n---\n{\"name\": \"my-react-app\"}",
           "language": "json",
