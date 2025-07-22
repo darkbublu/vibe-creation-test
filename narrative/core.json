@@ -8,7 +8,7 @@
       "description": "test",
       "codeBlocks": [
         {
-          "id": "block_62736404",
+          "id": "block_a604835e",
           "type": "code",
           "content": "// Modified at 2025-07-06T21:40:31.088Z\n# TIMING TEST - 2025-07-06T21:25:07.164Z\n# This should appear in GitHub immediately\n# No more lag!\n# post debug test\n# twst",
           "language": "python",
@@ -22,7 +22,7 @@
           }
         },
         {
-          "id": "block_62a12fba",
+          "id": "block_c161b04e",
           "type": "code",
           "content": "# test block",
           "language": "python",
@@ -43,7 +43,7 @@
       "description": "",
       "codeBlocks": [
         {
-          "id": "block_3ccad6cc",
+          "id": "block_f30dffa7",
           "type": "code",
           "content": "export interface UserProfile {\n  firstName: string;\n  lastName: string;\n  avatar?: string;\n  bio?: string;\n  location?: string;\n  socialLinks?: {\n    twitter?: string;\n    github?: string;\n    linkedin?: string;\n  };\n}",
           "language": "typescript",
@@ -57,7 +57,7 @@
           }
         },
         {
-          "id": "block_f8a09814",
+          "id": "block_7b970fa4",
           "type": "code",
           "content": "<<<<<<< HEAD\nexport type UserRole = 'admin' | 'user' | 'moderator';\n// #endregion\n\n// #region Authentication Types\nexport interface AuthState {\n  isAuthenticated: boolean;\n  user: User | null;\n  token: string | null;\n  loading: boolean;\n  error: string | null;\n}",
           "language": "typescript",
@@ -71,7 +71,7 @@
           }
         },
         {
-          "id": "block_c414d03c",
+          "id": "block_9d8b00f3",
           "type": "code",
           "content": "export interface LoginCredentials {\n  username: string;\n  password: string;\n  remember?: boolean;\n}\n\nexport interface RegistrationData extends LoginCredentials {\n  email: string;\n  confirmPassword: string;\n}\n// #endregion\n\n// #region API Types\nexport interface ApiResponse<T> {\n  success: boolean;\n  data?: T;\n  error?: {\n    code: string;\n    message: string;\n    details?: unknown;\n  };\n}\n\nexport interface PaginatedResponse<T> extends ApiResponse<T[]> {\n  pagination: {\n    total: number;\n    page: number;\n    pageSize: number;\n    totalPages: number;\n  };\n}\n// #endregion\n\n// Game Types and Interfaces for Tic-Tac-Toe\n\nexport type Player = 'X' | 'O';\nexport type CellValue = Player | null;\nexport type Board = CellValue[];\n\nexport interface GameState {\n  board: Board;\n  currentPlayer: Player;\n  winner: Player | null;\n  isDraw: boolean;\n  isGameOver: boolean;\n  gameMode: GameMode;\n  moveCount: number;\n}\n\nexport type GameMode = 'ai' | 'player' | 'menu';\n\nexport interface GameStats {\n  gamesPlayed: number;\n  wins: number;\n  losses: number;\n  draws: number;\n  winRate: number;\n}\n\nexport interface Move {\n  index: number;\n  player: Player;\n}\n\nexport interface GameConfig {\n  aiDifficulty: 'easy' | 'medium' | 'hard';\n  firstPlayer: Player;\n}\n\nexport interface WinningLine {\n  indices: number[];\n  pattern: 'row' | 'column' | 'diagonal';\n}\n\n// AI Types\nexport interface AIMove {\n  index: number;\n  score: number;\n}\n\nexport interface GameContextType {\n  gameState: GameState;\n  stats: GameStats;\n  makeMove: (index: number) => void;\n  resetGame: () => void;\n  setGameMode: (mode: GameMode) => void;\n  newGame: (mode: GameMode) => void;\n}\n\n// UI Component Props\nexport interface SquareProps {\n  value: CellValue;\n  onClick: () => void;\n  isWinning?: boolean;\n  disabled?: boolean;\n}\n\nexport interface BoardProps {\n  board: Board;\n  onSquareClick: (index: number) => void;\n  winningLine?: number[];\n  disabled?: boolean;\n}\n\nexport interface GameInfoProps {\n  currentPlayer: Player;\n  winner: Player | null;\n  isDraw: boolean;\n  gameMode: GameMode;\n  moveCount: number;\n}\n\nexport interface GameMenuProps {\n  onModeSelect: (mode: GameMode) => void;\n  stats: GameStats;\n}\n\nexport interface StatsDisplayProps {\n  stats: GameStats;\n}\n\n// Constants\nexport const INITIAL_BOARD: Board = Array(9).fill(null);\n\nexport const WINNING_COMBINATIONS: number[][] = [\n  [0, 1, 2], // top row\n  [3, 4, 5], // middle row\n  [6, 7, 8], // bottom row\n  [0, 3, 6], // left column\n  [1, 4, 7], // middle column\n  [2, 5, 8], // right column\n  [0, 4, 8], // diagonal top-left to bottom-right\n  [2, 4, 6], // diagonal top-right to bottom-left\n];\n\nexport const INITIAL_GAME_STATE: GameState = {\n  board: INITIAL_BOARD,\n  currentPlayer: 'X',\n  winner: null,\n  isDraw: false,\n  isGameOver: false,\n  gameMode: 'menu',\n  moveCount: 0,\n};\n\nexport const INITIAL_STATS: GameStats = {\n  gamesPlayed: 0,\n  wins: 0,\n  losses: 0,\n  draws: 0,\n  winRate: 0,\n}; \n=======\n85\n>>>>>>> 9228db559405d0bcf1ff3e8daf4b4a36c5f738af",
           "language": "typescript",
